@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/HomeButton"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="@string/Home"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/TVButton"
+        android:icon="@drawable/ic_tv_24dp"
+        android:title="@string/TVLarge"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/SongsButton"
+        android:icon="@drawable/ic_music_note_24dp"
+        android:title="@string/Music"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/GamesButton"
+        android:icon="@drawable/ic_videogame_asset_24dp"
+        android:title="@string/Videogames"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/BooksButton"
+        android:icon="@drawable/ic_book_24dp"
+        android:title="@string/Books"
+        app:showAsAction="always"/>
+
+</menu>

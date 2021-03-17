@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchButton"
+        android:icon="@drawable/ic_search_24dp"
+        android:onClick="searchItem"
+        android:title="@string/SearchSong"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/AddButton"
+        android:icon="@drawable/ic_add_circle_outline_24dp"
+        android:onClick="addList"
+        android:title="@string/Add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/deleteButton"
+        android:icon="@drawable/ic_delete_24dp"
+        android:onClick="openDelete"
+        android:title="@string/Delete"
+        app:showAsAction="ifRoom" />
+
+    <!--<item
+        android:id="@+id/editButton"
+        android:icon="@drawable/ic_edit_24dp"
+        android:onClick="openEdit"
+        android:title="@string/Edit"
+        app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/profileButton"
+        android:icon="@drawable/ic_person_outline_24dp"
+        android:title="@string/Profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/SettingsButton"
+        android:icon="@drawable/ic_settings_24dp"
+        android:onClick="openSettings"
+        android:title="@string/Settings"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.plorrios.medialists">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeLight">
+        <activity android:name=".Games.PublisherDetailsActivity"></activity>
+        <activity android:name=".Games.DeveloperDetailsActivity" />
+        <activity android:name=".Games.GameDetailsActivity" />
+        <activity android:name=".Games.GameSearchActivity" />
+        <activity android:name=".Music.ArtistDetailsActivity" />
+        <activity android:name=".Music.AlbumDetailsActivity" />
+        <activity android:name=".Music.DeleteMusicListActivity" />
+        <activity android:name=".Music.SongDetailsActivity" /> <!-- Sample AdMob App ID: ca-app-pub-6776033603377109~4638946993 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6776033603377109~4638946993" />
+
+        <activity android:name=".ListsModifications.RemoveAddListsActivity" />
+        <activity android:name=".ListsModifications.AddListActivity" />
+        <activity android:name=".Music.MusicSearchActivity" />
+        <activity
+            android:name=".Settings.Settings"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

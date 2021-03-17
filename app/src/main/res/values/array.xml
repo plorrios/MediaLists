@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="StyleTypes" >
+        <item>@string/Light</item>
+        <item>@string/Dark</item>
+    </string-array>
+    <string-array name="music_list_types">
+        <item>@string/Song</item>
+        <item>@string/Album</item>
+        <item>@string/Artista</item>
+    </string-array>
+
+</resources>

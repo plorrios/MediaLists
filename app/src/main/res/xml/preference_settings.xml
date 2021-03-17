@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="AppliedStyle"
+        android:title="@string/Style"
+        android:summary="@string/Style_desc"
+        android:defaultValue="@string/Light"
+        android:entryValues="@array/StyleTypes"
+        android:entries="@array/StyleTypes"
+        />
+
+</PreferenceScreen>

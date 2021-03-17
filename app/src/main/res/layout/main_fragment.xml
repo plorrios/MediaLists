@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/MainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize" />
+
+        <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButtonTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/TV"
+                    android:onClick="click"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/tv_image" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonMusic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Music"
+                    android:onClick="click"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/music_image" />
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adViewMainActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:adSize="BANNER"
+                    app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+                <ImageButton
+                    android:id="@+id/imageButtonGames"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Games"
+                    android:onClick="click"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/games_image" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonBooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Books"
+                    android:cropToPadding="false"
+                    android:onClick="click"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/book_image" />
+
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

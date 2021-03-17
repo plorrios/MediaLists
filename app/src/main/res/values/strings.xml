@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MediaLists</string>
+    <string name="Music">Music</string>
+    <string name="Games">Games</string>
+    <string name="TV">TV</string>
+    <string name="TVLarge">Films/Series</string>
+    <string name="Books">Books</string>
+    <string name="Profile">Profile</string>
+    <string name="Style">Style</string>
+    <string name="Style_desc">Choose the style of the application</string>
+    <string name="Light">Light</string>
+    <string name="Dark">Dark</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="Search">Search</string>
+    <string name="Add">Add</string>
+    <string name="game_banner">Banner from the selected game</string>
+    <string name="description_title">Description</string>
+    <string name="description_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae mauris nulla. In volutpat lacus mi, eget imperdiet orci dictum quis. Suspendisse facilisis malesuada commodo. Fusce ante tortor, maximus sit amet hendrerit quis, rutrum vitae mauris. Mauris diam sem, imperdiet ac lorem non, interdum blandit magna. Suspendisse ut velit nec neque viverra gravida eu vel eros. Fusce mauris diam, luctus sit amet tincidunt non, dictum nec libero. Nam blandit mi vitae diam eleifend, eu tempus tellus fringilla. Etiam ut purus purus. Integer imperdiet in lectus at viverra. Sed vitae urna quis odio ullamcorper placerat. Aliquam elementum velit nec orci volutpat aliquet. Nulla quam risus, iaculis ut tristique nec, dapibus eu dui.</string>
+    <string name="details_title">Details</string>
+    <string name="devs_title">Developers</string>
+    <string name="length_title">Length</string>
+    <string name="release_title">Release</string>
+    <string name="release_date" translatable="false">29/01/2019</string>
+    <string name="links_title">Links</string>
+    <string name="dialog_list_title">Lists</string>
+    <string name="dialog_list_summary">Pick a list to save the game</string>
+    <string name="Square" translatable="false">Square</string>
+    <string name="Title">Title</string>
+    <string name="Icon">Icon</string>
+    <string name="Select">Select from device</string>
+    <string name="Accept">Accept</string>
+    <string name="Cancel">Cancel</string>
+    <string name="AddList">Add List</string>
+    <string name="Remove">Remove</string>
+    <string name="No_Title">You did not enter a title</string>
+    <string name="No_Icon">You did not enter an icon</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Videogames">Videogames</string>
+    <string name="Settings">Settings</string>
+    <string name="Home">Home</string>
+    <string name="AppTitle" translatable="false">MediaLists</string>
+    <string name="Error_deleting_list">Error deleting list</string>
+    <string name="Error_signing_in">Erros signing in</string>
+    <string name="SearchSong">SearchSong</string>
+    <string name="NoConnectivity">No Internet Connection</string>
+    <string name="SongNotFount">Song not found</string>
+    <string name="Artist">Artist/s: %1$s</string>
+    <string name="Artista">Artists</string>
+    <string name="ItemTitle">Title: %1$s</string>
+    <string name="Preview">Listen preview</string>
+    <string name="NoPreview">No preview found</string>
+    <string name="Album">Album</string>
+    <string name="ArtistsWithLink">Artist/s: <u>%1$s</u></string>
+    <string name="AlbumWithLink">Album: <u>%1$s</u></string>
+    <string name="Type">Type</string>
+    <string name="Song">Song</string>
+    <string name="ArtistOnly">Artist</string>
+    <string name="Developer">Developer</string>
+    <string name="Publisher">Publisher</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+</resources>
